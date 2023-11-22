@@ -19,7 +19,14 @@
             color: white;
         }
 
-       .container {
+        .container-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .container {
             width: 80%;
             padding: 20px;
             margin-bottom: 20px;
@@ -52,33 +59,35 @@
         <h1>Biblioteca de Supernatural</h1>
     </header>
 
-<div class="container">
-    <!-- conteúdo do primeiro container -->
-</div>
-
-<div class="container">
-    <!-- conteúdo do segundo container -->
-</div>
-
-<div class="container">
-        <div class="book">
-            <img src="livro 2.png" alt="Capa do livro">
-            <h2>O Livro dos Monstros, Espiritos e Ghouls</h2>
-            <p>Autor: Alex Irvini</p>
-            <p>Baixe o pdf no link abaixo</p>
-            <a href="https://drive.google.com/file/d/1p2rVM2CCYlLKP6eqPCjRGkZS7J6lQTif/view?usp=sharing" download="livro3.pdf">Download PDF</a>
+    <div class="container-wrap">
+        <div class="container">
+            <!-- conteúdo do primeiro container -->
         </div>
-</div>
 
-<div class="container">
-        <div class="book">
-            <img src="livro 1.png" alt="Capa do livro">
-            <h2>Supernatural - O Guia de Caça de Bobby Singer</h2>
-            <p>Autor: David Reed</p>
-            <p>Baixe o pdf no link abaixo</p>
-            <a href="https://drive.google.com/file/d/15KBKw0CLomxjolbznY6GnY5xf8VbO6-k/view?usp=sharing" download="livro2.pdf">Download PDF</a>
+        <div class="container">
+            <!-- conteúdo do segundo container -->
         </div>
-</div>
+
+        <div class="container">
+            <div class="book">
+                <img src="livro 2.png" alt="Capa do livro">
+                <h2>O Livro dos Monstros, Espiritos e Ghouls</h2>
+                <p>Autor: Alex Irvini</p>
+                <p>Baixe o pdf no link abaixo</p>
+                <a href="https://drive.google.com/file/d/1p2rVM2CCYlLKP6eqPCjRGkZS7J6lQTif/view?usp=sharing" download="livro3.pdf">Download PDF</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="book">
+                <img src="livro 1.png" alt="Capa do livro">
+                <h2>Supernatural - O Guia de Caça de Bobby Singer</h2>
+                <p>Autor: David Reed</p>
+                <p>Baixe o pdf no link abaixo</p>
+                <a href="https://drive.google.com/file/d/15KBKw0CLomxjolbznY6GnY5xf8VbO6-k/view?usp=sharing" download="livro2.pdf">Download PDF</a>
+            </div>
+        </div>
+    </div>
 
     <div class="footer">
         <p>Copyright &copy; 2022 Biblioteca de Supernatural. Todos os direitos reservados.</p>
